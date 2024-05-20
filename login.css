@@ -1,0 +1,171 @@
+body{
+
+    margin: 0;
+    
+    padding: 0;
+    
+    font-family: monteserrat;
+    
+    background: url("images/login.jpg");
+    
+    height: 100uh;
+    
+    overflow: hidden;
+    
+    background-size: cover;
+    
+    }
+    
+    .contain{
+    
+    width: 350px;
+    
+    height: 400px;
+    
+    text-align: center;
+    
+    background:transparent;
+    
+    margin-left: 36%; margin-top: 10%;
+    
+    border-radius: 10px;
+    
+    backdrop-filter: blur(15px);
+    
+    border: 2px solid black;
+    
+    }
+    
+    .contain.text{
+    
+    position: relative;
+    top: 7%;
+    
+    }
+    
+    Inp1{
+    
+    background: transparent;
+    
+    border: transparent;
+    
+    border-bottom: 1px solid black;
+    width: 270px;
+    font-size: 19px;
+    
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    }
+    
+    p{
+       font-size: 18px;
+    }
+    .text button{
+    
+    width: 250px;
+    
+    height: 44px;
+    
+    background-color:#0061f1;
+    
+    border-radius: 25px; font-size: 19px;
+    
+    margin-top: 30px;
+    
+    margin-bottom: 10px;
+    
+    color: white;
+    
+    }
+    
+    button:hover{
+    
+    border: 3px solid rgb(5, 1, 255);
+    
+    color: white;
+    
+    font-size: 20px;
+    
+    background-color: rgb(5, 1, 255);
+    
+    box-shadow: 0 0 25px rgb(16, 13, 212);
+    
+    }
+    @media screen and (max-width: 768px) {
+    
+    .contain {
+    
+    width: 80%;
+    
+    height: auto;
+    
+    margin: 10% auto;
+    
+    }
+    
+    .contain.text {
+    
+    top: 5%;
+    }
+    .inp1,
+    .inp2 {
+    
+    width: 90%;
+    
+    margin-top: 20px;
+    
+    }
+    
+    p{
+    
+    font-size: 16px; }
+    
+    .text button {
+    width: 80%; 
+    height: 40px;
+    font-size: 16px;
+    margin-top: 20px; 
+    margin-bottom: 10px; }
+    
+    button:hover {
+    
+    font-size: 18px;
+    
+    box-shadow: 0 0 20px rgb(244, 152, 167);
+    }
+    }
+    
+    @media screen and (max-width: 480px) {
+    
+    .contain {
+    
+    width: 90%;
+    margin: 10% auto; }
+    
+    Inp1 {
+    
+    width: 90%; font-size: 16px; margin-top: 10px; }
+    
+    text button {
+    
+    width: 90%;
+    
+    height: 40px;
+    
+    font-size: 16px;
+    
+    margin-top: 10px;
+    
+    }
+    
+    date {
+    
+    font-size: 14px;
+    
+    }
+    
+    text button hover {
+    
+    box-shadow: 0 0 15px rgb(244, 152, 167); }
+    }
+    

@@ -1,0 +1,158 @@
+*{margin: 0;
+    padding: 0;
+}
+body{
+    background: url("images/cont.jpg");
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    background:transparent;
+    align-self: center;
+    align-content: center;
+    justify-items: center;
+    
+}
+.contact-box{
+    background:transparent;
+   
+    display: flex;
+    
+    border-radius: 15px;
+    width: 50%;
+   
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+    color: white;
+}
+#tt{
+   color: #ffd900;
+   font-size: 50px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+.email{
+   width: 500px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #ffd900;
+    font-size: 30px;
+}
+
+button{
+    background: #fbff04;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #0c0c0c;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+    font-weight: 700;
+}
+button:hover{
+    background-color: #ffd900;
+  box-shadow: 0 0 25px #ffd900;
+  color: black;
+  font-weight: 800;
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+        padding: 20px; 
+        order: unset;
+    }
+
+    button {
+        width: auto; 
+    }
+}
+
+/* Media query for mobile phones */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%; 
+    }
+
+    .contact-left,
+    .contact-right {
+        padding: 20px; 
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input,
+    textarea {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

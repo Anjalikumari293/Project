@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monteserrat;
+    background: url("images/login.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.contain{
+    width: 500px;
+    height: 450px;
+    /* text-align: center; */
+    background: transparent;
+    margin-top: 10%;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    border: 2px solid black;
+    color: white;
+}
+.inp1{
+    border: none;
+   background-color: transparent;
+    width: 270px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 2px solid black;
+}
+
+.text button{
+    width: 300px;
+    margin-top: 15px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0019fc;
+    font-size: 20px;
+    border: none;
+    color: white;
+}
+.text button:hover{
+    background-color: rgb(0, 59, 253);
+    box-shadow: 0 0 25px rgb(18, 2, 248);
+    
+    color: white;
+}
+.date{
+   color: grey;
+}
+@media screen and (max-width: 768px) {
+   body{
+     height: 70vh;
+}
+    h1{
+       font-size: 30px;
+    }
+    .contain {
+        width: 80%;
+        height: auto;
+        margin: 10% auto;
+    }
+
+    .inp1 {
+        width: 90%;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .text button {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .date {
+        font-size: 16px;
+    }
+
+    .text button:hover {
+        box-shadow: 0 0 20px rgb(244, 152, 167);
+    }
+}
+@media screen and (max-width: 480px) {
+
+    h1{
+        font-size: 20px;
+     }
+    .contain {
+        width: 90%;
+        height: auto;
+        margin: 10% auto;
+    }
+
+    .inp1 {
+        width: 90%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .text button {
+        width: 90%;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+
+    .text button:hover {
+        box-shadow: 0 0 15px rgb(244, 152, 167);
+    }
+}

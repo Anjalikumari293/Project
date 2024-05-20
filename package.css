@@ -1,0 +1,562 @@
+
+body{
+    background-color: black;
+    font-family:arial,sans-serif;
+    margin:0;
+    padding:0;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+.packages-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.package1 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.package1 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package1 h2{
+    color: #009688;
+}
+.package1 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package2 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center
+}
+.package2 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package2 h2{
+    color: #009688;
+}
+.package2 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package3 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.package3 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package3 h2{
+    color: #009688;
+}
+.package3 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.package4 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center
+}
+.package4 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package4 h2{
+    color: #009688;
+}
+.package4 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package5 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.package5 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package5 h2{
+    color: #009688;
+}
+.package5 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package6 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center
+}
+.package6 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package6 h2{
+    color: #009688;
+}
+.package6 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.package7 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.package7 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package7 h2{
+    color: #009688;
+}
+.package7 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package8 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center
+}
+.package8 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package8 h2{
+    color: #009688;
+}
+.package8 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package9 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.package9 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package9 h2{
+    color: #009688;
+}
+.package9 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package-container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.package10 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center
+}
+.package10 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package10 h2{
+    color: #009688;
+}
+.package10 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package11 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.package11 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package11 h2{
+    color: #009688;
+}
+.package11 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}.package12 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center
+}
+.package12 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package12 h2{
+    color: #009688;
+}
+.package12 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package-container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.package13 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.package13 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package13 h2{
+    color: #009688;
+}
+.package13 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}.package14 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center
+}
+.package14 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package14 h2{
+    color: #009688;
+}
+.package14 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
+.package15 {
+    width: 300px;
+    margin:50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.package15 img{
+    width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.package15 h2{
+    color: #009688;
+}
+.package15 p{
+    color:#666;
+    margin-bottom: 5 px;
+}
+.price {
+    font-size: 18px;
+    color: #009688;
+}
+.buy-button{
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buy-button:hover{
+    background-color: #00796b;
+}
